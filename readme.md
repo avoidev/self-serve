@@ -9,7 +9,7 @@ Avanti is a basic web application that interacts with a database that allows gue
 ## Goals/Features
 - [ ] Email Notifications to Staff
 - [ ] Admin/Management Panel
-- [ ] Barcode Generation
+- [X] Barcode Generation
 - [ ] Barcode Scanning (Quick Sign In/Out)
 - [ ] Pretty it up a bit :)
 

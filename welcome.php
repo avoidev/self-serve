@@ -10,6 +10,7 @@ Company:<?php echo $_POST["company"]; ?>
 <br>
 
 <?php
+$ini = parse_ini_file('app.ini');
 if(isset($_POST['generate']))
 {
   $FirstName = $_POST['fir_name'];
@@ -26,12 +27,13 @@ if(isset($_POST['generate']))
 <br>
 <br>
 
-
 <center><?php
+// Login Details
 $servername = "localhost";
-$username = "selfserve";
-$password = "Patmyd0g";
-$dbname = "myDB";
+$username = $ini['db_user'];
+$password = $ini['db_password'];
+$dbname = $ini['db_name'];
+
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
