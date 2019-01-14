@@ -10,7 +10,6 @@ Company:<?php echo $_POST["company"]; ?>
 <br>
 
 <?php
-$ini = parse_ini_file('app.ini');
 if(isset($_POST['generate']))
 {
   $FirstName = $_POST['fir_name'];
@@ -28,6 +27,9 @@ if(isset($_POST['generate']))
 <br>
 
 <center><?php
+
+$ini = parse_ini_file('app.ini');
+
 // Login Details
 $servername = "localhost";
 $username = $ini['db_user'];
