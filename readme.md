@@ -2,7 +2,7 @@
 
 Avanti is a basic web application that interacts with a database that allows guests to check-in.
 
-**Please note that this is a personal project and I only work on it when I have the time, reliable updates etc. are not to be expected.**
+**Please note that this is a personal project and I only work on it when I have the time, this is just me playing around and learning. Thank you**
 
 ## Installation
 
